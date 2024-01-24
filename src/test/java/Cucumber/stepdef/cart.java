@@ -50,8 +50,10 @@ public class cart {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(viewcart));
         driver.findElement(viewcart).click();*/
+
         new StorePage(driver).addtocart(product.getName());
         System.out.println(product.getName());
+        System.out.println("dummy output");
 
 
     }
