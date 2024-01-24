@@ -53,7 +53,7 @@ public class cart {
 
         new StorePage(driver).addtocart(product.getName());
         System.out.println(product.getName());
-        System.out.println("dummy");
+        System.out.println("dummy class to test");
 
 
     }
