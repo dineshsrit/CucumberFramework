@@ -53,7 +53,7 @@ public class cart {
 
         new StorePage(driver).addtocart(product.getName());
         System.out.println(product.getName());
-        System.out.println("dummy output");
+        System.out.println("dummy output for checking the Github Hook trigger for GitScm Polling");
 
 
     }
